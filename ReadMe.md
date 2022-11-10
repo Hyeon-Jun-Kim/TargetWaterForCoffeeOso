@@ -60,7 +60,7 @@ TargetWaterForCoffee
 ## Feature-1. 데이터 목록화면 구현
 
 ### UI
-<img width="415" alt="스크린샷 2022-11-09 오후 2 11 12" src="https://user-images.githubusercontent.com/59905688/200744169-a2de9812-5ca4-4fbb-92ca-1559d340471a.png" width="30%" height="30%">
+<img width="311" alt="CafeDetail" src="https://user-images.githubusercontent.com/59905688/201157491-99de5453-59f3-4a11-8e71-6b572a1469a3.png" width="30%" height="30%">
 
 ### Trouble Shooting
 #### Table View cell Event 문제
