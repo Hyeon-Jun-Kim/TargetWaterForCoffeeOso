@@ -59,8 +59,8 @@ TargetWaterForCoffee
 
 ## Feature-1. 데이터 목록화면 구현
 
-### UI
-<img width="311" alt="CafeDetail" src="https://user-images.githubusercontent.com/59905688/201157491-99de5453-59f3-4a11-8e71-6b572a1469a3.png" width="30%" height="30%">
+### [ UI ]
+<img width="311" alt="CafeDetail" src="https://user-images.githubusercontent.com/59905688/201157491-99de5453-59f3-4a11-8e71-6b572a1469a3.png" width="20%" height="20%">
 
 ### [ Trouble Shooting ]
 #### 1. Table View cell Event 문제
@@ -74,7 +74,7 @@ TargetWaterForCoffee
 
 ## Feature-2. 데이터 추가화면 구현
 
-### UI
+### [ UI ]
 <img width="608" alt="스크린샷 2022-11-09 오전 3 03 02" src="https://user-images.githubusercontent.com/59905688/200641324-54adad09-87b3-413e-8d61-393f90e92faa.png" width="40%" height="40%">
 
 ### [ Trouble Shooting ]
@@ -84,7 +84,7 @@ TargetWaterForCoffee
 
 ## Feature-3. 데이터 상세화면 구현
 
-### UI
+### [ UI ]
 <img width="971" alt="스크린샷 2022-11-09 오전 3 07 09" src="https://user-images.githubusercontent.com/59905688/200642055-e7abae5d-2e43-4d43-92dd-cc542026cd7a.png" width="40%" height="40%">
 
 ### [ Trouble Shooting ]
