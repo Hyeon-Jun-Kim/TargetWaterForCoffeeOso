@@ -77,10 +77,10 @@ TargetWaterForCoffee
 ### UI
 <img width="608" alt="스크린샷 2022-11-09 오전 3 03 02" src="https://user-images.githubusercontent.com/59905688/200641324-54adad09-87b3-413e-8d61-393f90e92faa.png" width="40%" height="40%">
 
-### 2️⃣ Trouble Shooting
+### Trouble Shooting
 ####  IPhone 8에서 tableView가 전부 보이지 않는 문제
-- 문제점 : `Save Button`의 위치값을 고정해두어 Frame의 높이가 상대적으로 낮은 기기에서 TabelVew를 가리는 현상이 발생함
-- 해결방법 : Frame의 높이값의 1/4만큼 하단에서 떨어지도록 비율을 구하여 위치시켜 해결함
+- 문제점 : `Save Button`의 위치값을 고정해두어 Frame의 높이가 상대적으로 낮은 기기에서 TabelVew를 가리는 현상이 발생했습니다.
+- 해결방법 : Frame의 높이값의 1/4만큼 하단에서 떨어지도록 비율을 구하여 위치시켜 해결했습니다.
 
 ## Feature-3. 데이터 상세화면 구현
 
@@ -89,5 +89,5 @@ TargetWaterForCoffee
 
 ### Trouble Shooting
 #### 정보 수정 시 잦은 화면 전환으로 딜레이가 발생하는 문제
-- 문제점 :  초기 UI 설계는 상세 데이터 페이지(`DataDetailController`)에서 정보 수정을 할 때 팝업창이 보여지게 되며 수정 데이터를 입력 후 저장을 하는 방식이었다. 수정된 데이터를 다시 불러와 상세 데이터 페이지에서 보여지도록 하는 과정에서 작은 딜레이가 발생하였고 사용자 편의성이 떨어진다 느껴져 다른 방식을 고민하게 되었다.
-- 해결방안 :  새로운 팝업창을 띄우지 않고 상세 데이터 페이지에서 데이터를 보여주는 `UITextView`의 `.isEditable` 속성과 `keyboardWillShow` 함수를 통해 페이지 내에서 즉각적인 정보 수정이 가능하도록 하여 해결하였다.
+- 문제점 :  초기 UI 설계는 상세 데이터 페이지(`DataDetailController`)에서 정보 수정을 할 때 팝업창이 보여지게 되며 수정 데이터를 입력 후 저장을 하는 방식이었다. 수정된 데이터를 다시 불러와 상세 데이터 페이지에서 보여지도록 하는 과정에서 작은 딜레이가 발생하였고 사용자 편의성이 떨어진다 느껴져 다른 방식을 고민하게 되었습니다.
+- 해결방안 :  새로운 팝업창을 띄우지 않고 상세 데이터 페이지에서 데이터를 보여주는 `UITextView`의 `.isEditable` 속성과 `keyboardWillShow` 함수를 통해 페이지 내에서 즉각적인 정보 수정이 가능하도록 하여 해결했습니다.
